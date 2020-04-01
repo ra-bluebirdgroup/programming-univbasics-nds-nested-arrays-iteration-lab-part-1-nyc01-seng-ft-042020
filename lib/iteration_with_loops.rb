@@ -20,7 +20,6 @@ row_index = 0
    end
 
  row_index += 1
- return total
 end
 
 end
