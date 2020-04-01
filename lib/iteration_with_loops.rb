@@ -12,7 +12,8 @@ row_index = 0
    element_index = 0
 
   while element_index < src[row_index].count do
-       if src[row_index][element_index].even?
+       if src[row_index][element_index].even? 
+         puts [row_index][element_index]
        total << src[row_index][element_index]
        end
       element_index += 1
@@ -22,4 +23,4 @@ row_index = 0
 end
 
 total
-  end
+end
