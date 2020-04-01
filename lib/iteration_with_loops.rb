@@ -7,7 +7,7 @@
   def find_even_values(src)
 
 row_index = 0
-nua = []
+
  while row_index < src.count do
    element_index = 0
 
@@ -19,5 +19,5 @@ nua = []
    end
  row_index += 1
 end
-return nua
+
 end
