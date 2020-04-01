@@ -14,6 +14,7 @@ row_index = 0
   while element_index < src[row_index].count do
        if src[row_index][element_index].even?
            total += [row_index][element_index].to_i
+           puts total
        end
       element_index += 1
    end
