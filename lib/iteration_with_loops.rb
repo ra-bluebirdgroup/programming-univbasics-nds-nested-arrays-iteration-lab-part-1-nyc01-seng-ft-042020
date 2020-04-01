@@ -19,5 +19,5 @@ nua = []
    end
  row_index += 1
 end
-return nua 
+return nua
 end
