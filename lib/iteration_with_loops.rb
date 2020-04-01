@@ -13,7 +13,7 @@ row_index = 0
 
   while element_index < src[row_index].count do
        if src[row_index][element_index].even?
-           evenum = [row_index][element_index].to_i 
+           evenum = [row_index][element_index].to_i
            total += evenum
 
        end
