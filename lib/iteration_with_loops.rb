@@ -11,7 +11,9 @@ count = 0
           result << src[count][inner_count]
           inner_count += 1
         end
-        count += 1
+        count += 1 
+      end 
+
     end
   result  
 end
