@@ -5,22 +5,19 @@
   # Output all even values in each nested array
 
   def find_even_values(src)
-    total = 0
-row_index = 0
 
+row_index = 0
+nua = []
  while row_index < src.count do
    element_index = 0
 
   while element_index < src[row_index].count do
-       if src[row_index][element_index].even?
-         total += [row_index][element_index].to_i
-
-
+       if src[row_index][element_index]%2 == 0
+         nua  << [row_index][element_index].to_i
        end
       element_index += 1
    end
-
  row_index += 1
 end
-src
+nua 
 end
