@@ -20,5 +20,3 @@
     end
     output
   end
-
-end
