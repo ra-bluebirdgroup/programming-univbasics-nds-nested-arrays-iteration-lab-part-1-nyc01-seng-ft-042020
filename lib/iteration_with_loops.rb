@@ -14,12 +14,12 @@ row_index = 0
   while element_index < src[row_index].count do
        if src[row_index][element_index].even?
            total += [row_index][element_index].to_i
-           p total
+
        end
       element_index += 1
    end
 
  row_index += 1
 end
-
+p total
 end
