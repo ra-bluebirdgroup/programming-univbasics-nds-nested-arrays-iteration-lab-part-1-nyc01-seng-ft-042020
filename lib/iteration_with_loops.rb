@@ -20,5 +20,5 @@ require pry
 
     end
    result
-  end 
+  end
   binding.pry
