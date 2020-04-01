@@ -4,13 +4,14 @@ def find_even_values(src)
   # Output all even values in each nested array
 
   def find_even_values(src)
+    output = []
     row_index = 0
     while row_index < src.count do
       element_index = 0
       while element_index < src[row_index].count do
         if src[row_index][element_index]%2 == 0
-          puts src[row_index][element_index]
-        end 
+           output << src[row_index][element_index]
+        end
         # inside this loop, src[row_index][element_index] will access the current element
         element_index += 1
       end
